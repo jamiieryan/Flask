@@ -24,6 +24,9 @@ def posttest():
 #square brackets for POST var
 	var = request.form["lastname"]
 	return "Your Lastname is: " + var
+	
+#if(request.method == 'POST')
+#else#
 
 if __name__ == "__main__":
 	app.run()
